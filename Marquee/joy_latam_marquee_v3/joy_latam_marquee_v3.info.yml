@@ -1,0 +1,7 @@
+name: 'Joy Latam Markee Section V3'
+type: module
+description: 'A custom block section that shows the country brands with the new joy design.'
+core_version_requirement: ^10 || ^9
+package: Custom
+dependencies:
+  - drupal:block

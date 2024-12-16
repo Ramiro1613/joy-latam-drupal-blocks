@@ -1,0 +1,10 @@
+joy_latam_marquee_v3:
+  version: 1.x
+  js:
+    static/js/main.d5782411.js: {}
+  css:
+    theme:
+      static/css/main.71fffdea.css: {}
+  dependencies:
+    - core/jquery
+    
