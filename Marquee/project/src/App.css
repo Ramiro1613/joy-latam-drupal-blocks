@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar-desktop {
+  background-color: #1443ff;
+}
+
+.navbar-mobile {
+  background-color: #1443ff;
+}
+
+.footer-main {
+  background-color: #1443ff;
+}
+
+.main-button {
+  background-color: #ffffff;
+  color: #1443ff;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 6px;
+  height: 42.54px;
+}
+
+.secondary-button {
+  background-color: #1443ff;
+  color: white;
+  border-color: white;
+  border: 2px solid;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 6px;
+  height: 42.54px;
+}
+
+.elmachips-background {
+  background-color: #f0830e;
+}
+
+.background-cheetos {
+  background-color: rgba(254, 206, 28, 1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.submenu-cheetos {
+  background-color: #ff6b11;
+  background-size: cover;
+  background-position: center;
+}
+
+.inicio-nav {
+  color: #f97916;
+}
+
+.sub-nav-link {
+  color: #6b6f86;
+  align-content: center;
+  align-items: center;
+}
+.sticky-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 180px;
+  z-index: 999;
+}
+
+.button-swiper {
+  background-color: rgba(20, 67, 255, 1);
+  color: white;
+  border-color: white;
+  border: 2px solid;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 6px;
+  height: 42.54px;
+}
+.link-swiper {
+  color: rgba(20, 67, 255, 1);
+  text-decoration: underline 1px rgba(20, 67, 255, 1);
+}
+
+.swiper-button-prev {
+  border-radius: 60px;
+}
+
+/* Customize the right arrow */
+.swiper-button-next {
+  border-radius: 60px;
+}
+
+.product-gallery-container {
+  display: grid;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-image-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.product-gallery-image {
+  height: auto;
+  object-fit: cover;
+}
+
+.special-span {
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+}
