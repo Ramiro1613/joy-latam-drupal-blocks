@@ -23,7 +23,8 @@ function App() {
  * joy_latam_markee = Content Type System name 
  * 
  * Fields System Names
- * ?fields[node--joy_latam_markee]=title,body,field_background_image,field_marquee_brands,field_call_to_action
+ * title
+ * body, field_background_image (Image with limit 1),field_marquee_brands (Image field with unlimited images),field_call_to_action (URL Type)
  * 
  * Relationships for images and links
  * &fields[media--image]=field_media_image&fields[file--file]=uri&include=field_background_image.uid,field_marquee_brands.uid
