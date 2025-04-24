@@ -1,0 +1,8 @@
+name: Redeem API
+machine_name: redeem_api
+type: module
+description: "API Endpoint for testing purposes."
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:serialization
