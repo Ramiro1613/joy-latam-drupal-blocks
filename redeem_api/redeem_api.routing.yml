@@ -1,0 +1,7 @@
+redeem_api.data:
+  path: '/api/redeem'
+  defaults:
+    _controller: '\Drupal\redeem_api\Controller\RedeemApiController::getData'
+    _format: 'json'
+  requirements:
+    _permission: 'access content'
